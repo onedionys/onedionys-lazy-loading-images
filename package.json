@@ -1,0 +1,41 @@
+{
+  "name": "onedionys-lazy-loading-images",
+  "version": "1.0.0",
+  "description": "One Dionys (Lazy Loading Images) - Plan to load images gradually as the web page is scrolled, improving performance and user experience.",
+  "main": "src/lazyLoadImages.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onedionys/onedionys-lazy-loading-images.git"
+  },
+  "keywords": [
+    "onedionys",
+    "tea",
+    "package-manager",
+    "lazy-loading-images"
+  ],
+  "author": "One Dionys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onedionys/onedionys-lazy-loading-images/issues"
+  },
+  "homepage": "https://github.com/onedionys/onedionys-lazy-loading-images#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "onedionys-animation-library": "^1.0.0",
+    "onedionys-cookie-management": "^1.0.0",
+    "onedionys-date-time-utilities": "^1.0.0",
+    "onedionys-form-handling-utilities": "^1.0.0",
+    "onedionys-state-management": "^1.0.0"
+  }
+}
